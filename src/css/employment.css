@@ -1,0 +1,38 @@
+
+.job {
+    margin-bottom: 30px;
+}
+
+.job h2 {
+    /* color: #333; */
+    margin-bottom: 10px;
+    font-size: calc(14px + .3vw);
+}
+
+.job p {
+    font-size: calc(10px + .3vw);
+}
+
+.job ul {
+    margin-top: 10px;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.job ul li {
+    margin-bottom: 10px;
+    font-size: calc(10px + .3vw);
+}
+
+
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 750px) {
+    main {
+        width: 100%; /* Take full width on smaller screens */
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}

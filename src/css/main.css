@@ -1,0 +1,26 @@
+/* src/css/main.css */
+
+/* Centralized styling for layout */
+/* header, nav, footer {
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+} */
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  font-size: calc(12px + .5vw);
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 750px) {
+  main {
+      width: 100%;
+      text-align: center;
+  }
+}

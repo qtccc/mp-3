@@ -1,0 +1,41 @@
+
+/* School section styling */
+.school {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* School logo styling */
+.school-logo {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+/* School info styling */
+.school-info {
+    flex: 1; /* Take the remaining space after the logo */
+}
+
+.school-info h2 {
+    margin: 0 0 10px 0;
+    font-size: calc(14px + .3vw); /* Adjust font size based on screen */
+}
+
+.school-info p {
+    margin: 5px 0;
+    font-size: calc(10px + .3vw);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 750px) {
+    .main-wrapper {
+        width: 100%;
+    }
+}

@@ -1,0 +1,30 @@
+  /* Experience Section */
+.experience-section {
+  margin-bottom: 25px;
+}
+
+/* Experience Title */
+.experience-title {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: calc(10px + 0.5vw);
+}
+
+/* Experience Role */
+.experience-role {
+  font-style: italic;
+  font-size: calc(10px + 0.5vw);
+}
+
+/* Experience List */
+.experience-list {
+  margin-top: 10px;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Experience Item */
+.experience-item {
+  margin-bottom: 10px;
+  font-size: calc(8px + 0.5vw);
+}

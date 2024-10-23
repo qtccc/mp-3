@@ -1,0 +1,34 @@
+/* Reference section */
+.reference-section {
+    margin-bottom: 30px;
+}
+
+/* Reference title */
+.reference-title {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: calc(10px + 1vw);
+}
+
+/* Reference details */
+.reference-details {
+    font-size: calc(4px + 1vw);
+    margin-bottom: 10px;
+}
+
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 750px) {
+    .main-wrapper {
+        width: 100%;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    body {
+        font-size: calc(12px + .3vw);
+    }
+}

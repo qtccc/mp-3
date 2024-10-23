@@ -1,0 +1,44 @@
+/* global.css */
+
+/* Embedded code for Google font: merriweather */
+.merriweather-regular {
+  font-family: "Merriweather", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", system-ui;
+  font-weight: 300;
+  font-style: italic;
+}
+
+
+main {
+  width: 70%; /* Consistent width across all pages */
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+@media (max-width: 750px) {
+  main {
+    width: 95%; /* Adjust the width for smaller screens */
+  }
+}
+
+/* Header, Footer, and Nav are also styled consistently */
+header, nav, footer {
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+

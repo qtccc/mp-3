@@ -1,0 +1,111 @@
+/* Project section */
+.project-section {
+    margin-bottom: 30px;
+}
+
+/* Project Title */
+.project-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Project Description */
+.project-description {
+    margin-bottom: 10px;
+}
+
+/* Calculator and Project specific styling from the original file */
+
+/* Calculator styling */
+#calculator {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#calculator input {
+    width: 45%;
+    padding: 10px;
+    margin: 15px 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#calculator .buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #3d3d3d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#calculator .buttons button:hover {
+    background-color: #b8d8be;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#output.negative {
+    color: #b22222;
+}
+
+/* General project styling */
+.project h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: calc(15px + .3vw);
+}
+
+.project p {
+    font-size: calc(10px + .3vw);
+}
+
+.project ul {
+    margin-top: 10px;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.project ul li {
+    margin-bottom: 10px;
+    font-size: calc(10px + .3vw);
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #ddd;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: calc(12px + .3vw);
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 750px) {
+    .main-wrapper {
+        width: 100%;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    body {
+        font-size: calc(12px + .3vw);
+    }
+}
